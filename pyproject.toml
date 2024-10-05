@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "choice-game-cli"
+version = "0.1.0"
+description = "rewritten game I wrote ages ago"
+authors = ["oscar"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
