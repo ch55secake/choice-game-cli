@@ -30,10 +30,10 @@ class Item(object):
         Get item as json so rich can pretty print it
         :return: json object of item
         """
-        return json.loads(self.get_item_dict().__str__())
+        return json.loads(self.get_item_dict().json())
 
     def __str__(self):
         """
-        Pretty print item as json
+        Returns string name of item
         """
-        print_json(self.get_item_json())
+        return str(self.name)

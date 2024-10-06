@@ -1,6 +1,6 @@
 class Balance(object):
 
-    def __init__(self, current_balance: int):
+    def __init__(self, current_balance: int = 0):
         """
         Maintain balance as an object
         :param current_balance:
