@@ -49,6 +49,6 @@ class Inventory(object):
         """
         for value in iter(self.inv):
             if len(self.inv) == 0:
-                return "[bold red]poo![/bold red]"
+                return "[bold red]empty![/bold red]"
             else:
                 ", ".join(value)
